@@ -1,0 +1,27 @@
+{
+    "name": "alexeevdv/yii2-data-popup",
+    "description": "Yii2 plugin for pupups",
+    "keywords": ["yii2", "plugin", "popup"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/alexeevdv/yii2-data-popup",
+        "issues": "https://github.com/alexeevdv/yii2-data-popup/issues"
+    },
+    "authors": [
+        {
+            "name": "alexeevdv",
+            "homepage": "https://alexeevdv.ru/",
+            "email": "mail@alexeevdv.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "alexeevdv\\data\\popup\\": "src"
+        }
+    }
+}
